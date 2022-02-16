@@ -59,4 +59,4 @@ baseCases.forEach(([description, uncrunched, crunched]) => {
 });
 
 test(`Unknown version number should default to version 1.0.`, () =>
-  expect(crunch(null, 3)).toEqual([null]));
+  expect(crunch(null, 4)).toEqual([null]));

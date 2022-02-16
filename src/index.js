@@ -1,7 +1,7 @@
 // GraphQL-Crunch is fully backwards-compatible. This module routes into the
 // proper implementation.
 
-const versions = [require("./v1"), require("./v2")];
+const versions = [require("./v1"), require("./v2"), require('./v3')];
 
 module.exports = {
   crunch: (data, version = 1) =>
